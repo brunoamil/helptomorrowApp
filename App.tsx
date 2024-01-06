@@ -3,8 +3,8 @@ import {SafeAreaView, View} from 'react-native';
 import {ThemeProvider} from '@shopify/restyle';
 
 import {Text} from './src/components/Text/Text';
-import {Button} from './src/components/Button/Button';
 import {theme} from './src/theme/theme';
+import {Icon} from './src/components/Icon/Icon';
 
 function App(): JSX.Element {
   return (
@@ -14,9 +14,8 @@ function App(): JSX.Element {
           <Text preset="headingLarge" italic>
             HelpTomorrow
           </Text>
-          <Button title="Primary" mb="s10" preset="primary" />
-          <Button disabled title="Outline" mb="s10" preset="outline" />
-          <Button loading title="Loading" />
+          <Icon name="eyeOff" color="carrotSecondary" size={150} />
+          <Icon name="eyeOn" />
         </View>
       </SafeAreaView>
     </ThemeProvider>
