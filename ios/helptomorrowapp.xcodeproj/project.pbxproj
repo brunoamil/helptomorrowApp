@@ -12,6 +12,16 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		5D4470702B49CDDA001868B2 /* Satoshi-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5D4470662B49CDDA001868B2 /* Satoshi-Regular.otf */; };
+		5D4470712B49CDDA001868B2 /* Satoshi-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5D4470672B49CDDA001868B2 /* Satoshi-BoldItalic.otf */; };
+		5D4470722B49CDDA001868B2 /* Satoshi-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5D4470682B49CDDA001868B2 /* Satoshi-Italic.otf */; };
+		5D4470732B49CDDA001868B2 /* Satoshi-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5D4470692B49CDDA001868B2 /* Satoshi-LightItalic.otf */; };
+		5D4470742B49CDDA001868B2 /* Satoshi-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5D44706A2B49CDDA001868B2 /* Satoshi-Medium.otf */; };
+		5D4470752B49CDDA001868B2 /* Satoshi-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5D44706B2B49CDDA001868B2 /* Satoshi-MediumItalic.otf */; };
+		5D4470762B49CDDA001868B2 /* Satoshi-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5D44706C2B49CDDA001868B2 /* Satoshi-Black.otf */; };
+		5D4470772B49CDDA001868B2 /* Satoshi-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5D44706D2B49CDDA001868B2 /* Satoshi-Light.otf */; };
+		5D4470782B49CDDA001868B2 /* Satoshi-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5D44706E2B49CDDA001868B2 /* Satoshi-Bold.otf */; };
+		5D4470792B49CDDA001868B2 /* Satoshi-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5D44706F2B49CDDA001868B2 /* Satoshi-BlackItalic.otf */; };
 		7699B88040F8A987B510C191 /* libPods-helptomorrowapp-helptomorrowappTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-helptomorrowapp-helptomorrowappTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -40,6 +50,16 @@
 		3B4392A12AC88292D35C810B /* Pods-helptomorrowapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-helptomorrowapp.debug.xcconfig"; path = "Target Support Files/Pods-helptomorrowapp/Pods-helptomorrowapp.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-helptomorrowapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-helptomorrowapp.release.xcconfig"; path = "Target Support Files/Pods-helptomorrowapp/Pods-helptomorrowapp.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-helptomorrowapp-helptomorrowappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-helptomorrowapp-helptomorrowappTests.debug.xcconfig"; path = "Target Support Files/Pods-helptomorrowapp-helptomorrowappTests/Pods-helptomorrowapp-helptomorrowappTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D4470662B49CDDA001868B2 /* Satoshi-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Regular.otf"; sourceTree = "<group>"; };
+		5D4470672B49CDDA001868B2 /* Satoshi-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-BoldItalic.otf"; sourceTree = "<group>"; };
+		5D4470682B49CDDA001868B2 /* Satoshi-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Italic.otf"; sourceTree = "<group>"; };
+		5D4470692B49CDDA001868B2 /* Satoshi-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-LightItalic.otf"; sourceTree = "<group>"; };
+		5D44706A2B49CDDA001868B2 /* Satoshi-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Medium.otf"; sourceTree = "<group>"; };
+		5D44706B2B49CDDA001868B2 /* Satoshi-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-MediumItalic.otf"; sourceTree = "<group>"; };
+		5D44706C2B49CDDA001868B2 /* Satoshi-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Black.otf"; sourceTree = "<group>"; };
+		5D44706D2B49CDDA001868B2 /* Satoshi-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Light.otf"; sourceTree = "<group>"; };
+		5D44706E2B49CDDA001868B2 /* Satoshi-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Bold.otf"; sourceTree = "<group>"; };
+		5D44706F2B49CDDA001868B2 /* Satoshi-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-BlackItalic.otf"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-helptomorrowapp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-helptomorrowapp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = helptomorrowapp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-helptomorrowapp-helptomorrowappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-helptomorrowapp-helptomorrowappTests.release.xcconfig"; path = "Target Support Files/Pods-helptomorrowapp-helptomorrowappTests/Pods-helptomorrowapp-helptomorrowappTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -86,6 +106,7 @@
 		13B07FAE1A68108700A75B9A /* helptomorrowapp */ = {
 			isa = PBXGroup;
 			children = (
+				5D4470632B49CB5F001868B2 /* fonts */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -104,6 +125,23 @@
 				19F6CBCC0A4E27FBF8BF4A61 /* libPods-helptomorrowapp-helptomorrowappTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D4470632B49CB5F001868B2 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5D44706C2B49CDDA001868B2 /* Satoshi-Black.otf */,
+				5D44706F2B49CDDA001868B2 /* Satoshi-BlackItalic.otf */,
+				5D44706E2B49CDDA001868B2 /* Satoshi-Bold.otf */,
+				5D4470672B49CDDA001868B2 /* Satoshi-BoldItalic.otf */,
+				5D4470682B49CDDA001868B2 /* Satoshi-Italic.otf */,
+				5D44706D2B49CDDA001868B2 /* Satoshi-Light.otf */,
+				5D4470692B49CDDA001868B2 /* Satoshi-LightItalic.otf */,
+				5D44706A2B49CDDA001868B2 /* Satoshi-Medium.otf */,
+				5D44706B2B49CDDA001868B2 /* Satoshi-MediumItalic.otf */,
+				5D4470662B49CDDA001868B2 /* Satoshi-Regular.otf */,
+			);
+			name = fonts;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -242,8 +280,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D4470782B49CDDA001868B2 /* Satoshi-Bold.otf in Resources */,
+				5D4470702B49CDDA001868B2 /* Satoshi-Regular.otf in Resources */,
+				5D4470762B49CDDA001868B2 /* Satoshi-Black.otf in Resources */,
+				5D4470712B49CDDA001868B2 /* Satoshi-BoldItalic.otf in Resources */,
+				5D4470742B49CDDA001868B2 /* Satoshi-Medium.otf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				5D4470772B49CDDA001868B2 /* Satoshi-Light.otf in Resources */,
+				5D4470792B49CDDA001868B2 /* Satoshi-BlackItalic.otf in Resources */,
+				5D4470752B49CDDA001868B2 /* Satoshi-MediumItalic.otf in Resources */,
+				5D4470722B49CDDA001868B2 /* Satoshi-Italic.otf in Resources */,
+				5D4470732B49CDDA001868B2 /* Satoshi-LightItalic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
