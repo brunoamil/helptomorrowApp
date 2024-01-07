@@ -1,11 +1,12 @@
 import React from 'react';
-import {Box} from '../Box/Box';
+import {Box, TouchableOpacityBox} from '../Box/Box';
 import {useAppSafeArea} from '../../hooks/useAppSafeArea';
 import {Icon} from '../Icon/Icon';
 import {Text} from '../Text/Text';
 import {KeyboardAvoidingView, Platform} from 'react-native';
 import {ScrollViewContainer, ViewContainer} from './components/ScreenContainer';
 import {useAppTheme} from '../../hooks/useAppTheme';
+import {useNavigation} from '@react-navigation/native';
 
 interface ScreenProps {
   children: React.ReactNode;
@@ -19,6 +20,8 @@ export function Screen({
 }: ScreenProps) {
   const {colors} = useAppTheme();
   const {top} = useAppSafeArea();
+  const navigation = useNavigation();
+
   const Container = scrollable ? ScrollViewContainer : ViewContainer;
 
   return (
@@ -31,13 +34,17 @@ export function Screen({
           paddingBottom="s24"
           style={{paddingTop: top}}>
           {canGoBack && (
-            <Box mb="s24" flexDirection="row" alignItems="center">
+            <TouchableOpacityBox
+              onPress={navigation.goBack}
+              mb="s24"
+              flexDirection="row"
+              alignItems="center">
               <Icon name="arrowLeft" color="primary" />
 
               <Text preset="paragraphMedium" semiBold ml="s8">
                 Voltar
               </Text>
-            </Box>
+            </TouchableOpacityBox>
           )}
           {children}
         </Box>
