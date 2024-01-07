@@ -2,6 +2,7 @@ import {
   TouchableOpacity,
   TouchableOpacityProps as RNTouchableOpacityProps,
 } from 'react-native';
+
 import {
   createBox,
   createRestyleComponent,
@@ -16,7 +17,8 @@ import {
   spacingShorthand,
   SpacingShorthandProps,
 } from '@shopify/restyle';
-import {Theme} from '../../theme/theme';
+
+import {Theme} from '@theme';
 
 //Box = View RN
 export const Box = createBox<Theme>();
